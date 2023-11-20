@@ -3,11 +3,18 @@ Publication in review: Coffman, L., Hector D. Mejia, Yelinska Alicea, Raneem Mus
 
 # Data 
 The data folder contains the following files: \
-• 16S/<insert_file> : A QIIME2 artifact with the 16S ASV abundances for each sample. \
-• 16S/taxonomy.qza: A QIIME2 artifact the taxonomic assignment for each 16S ASV. \
-• 16S/rooted-tree.qza: A QIIME2 artifact containing the phylogenetic tree for the 16S ASVs. \
-• 16S/shannon.qza: A QIIME2 artifact containing the shannon diversity for the 16S ASVs. \
-• 16S/metadata.tsv: A table with the sample information. \
+• 16S/filtered-table-F001 : A QIIME2 artifact with the 16S ASV abundances for soil. \
+• 16S/filtered-table-root-F002 : A QIIME2 artifact with the 16S ASV abundances for root. \
+• 16S/filtered-table-shoot-F002 : A QIIME2 artifact with the 16S ASV abundances for shoot. \
+• 16S/taxonomy-F001.qza: A QIIME2 artifact the taxonomic assignment for soil 16S ASV. \
+• 16S/taxonomy-F002.qza: A QIIME2 artifact the taxonomic assignment for root and shoot 16S ASV. \
+• 16S/rooted-tree-F001.qza: A QIIME2 artifact containing the phylogenetic tree for the soil 16S ASVs. \
+• 16S/rooted-tree-F002.qza: A QIIME2 artifact containing the phylogenetic tree for the root and shoot 16S ASVs. \
+• 16S/shannon_vector_F001.qza: A QIIME2 artifact containing the shannon diversity for the soil 16S ASVs. \
+• 16S/shannon_vector_root_F002.qza: A QIIME2 artifact containing the shannon diversity for the root 16S ASVs. \
+• 16S/shannon_vector_shoot_F002.qza: A QIIME2 artifact containing the shannon diversity for the shoot 16S ASVs. \
+• 16S/metadata_F001.tsv: A table with the soil sample information. \
+• 16S/metadata_F002.tsv: A table with the root and shoot sample information. \
 • ITS/<insert_file> : A QIIME2 artifact with the ITS ASV abundances for each sample. \
 • ITS/taxonomy.qza: A QIIME2 artifact the taxonomic assignment for each ITS ASV. \
 • ITS/rooted-tree.qza: A QIIME2 artifact containing the phylogenetic tree for the ITS ASVs. \
