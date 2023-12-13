@@ -6,6 +6,8 @@ The data folder contains the following files: \
 • 16S/filtered-table-F001 : A QIIME2 artifact with the 16S ASV abundances for soil. \
 • 16S/filtered-table-root-F002 : A QIIME2 artifact with the 16S ASV abundances for root. \
 • 16S/filtered-table-shoot-F002 : A QIIME2 artifact with the 16S ASV abundances for shoot. \
+• 16S/filtered-rep-seqs-F001 : A QIIME2 artifact with the 16S ASV abundances for soil. \
+• 16S/filtered-rep-seqs-F002 : A QIIME2 artifact with the 16S ASV abundances for shoot & root. \
 • 16S/taxonomy-F001.qza: A QIIME2 artifact the taxonomic assignment for soil 16S ASV. \
 • 16S/taxonomy-F002.qza: A QIIME2 artifact the taxonomic assignment for root and shoot 16S ASV. \
 • 16S/rooted-tree-F001.qza: A QIIME2 artifact containing the phylogenetic tree for the soil 16S ASVs. \
