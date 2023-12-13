@@ -34,12 +34,7 @@ The data folder contains the following files: \
 
 # Code 
 The src folder contains the following R scripts: \
-• 01_data_import.Rmd: Loads and processes the data, and creates phyloseq objects. \
-• 02_alpha_diversity.Rmd: Calculates and plots the alpha diversity and compares the alpha diversity between the different conditions. \
-• 03_beta_diversity.Rmd: Calculates and plots the beta diversity distances and ordinations and compared beta diversity among sample conditions using PERMANOVA. \
-• 04_differential_abundance.Rmd: Performs differential abundance analysis using ANCOM-BC and plots log2 fold change heatmaps and barcharts. \
-• 05_A_flavus_ASVs.Rmd: Plots and compares the abundance of the K49 and Tox4 ASVs in the different conditions. \
-• 06_cross_domain_network_corn_diff_assoc.Rmd: Creates and compares co-occurrence networks for each Maize inbred, and identifies taxa that are correlated with Tox4 and K49 ASVs. \
+• Figures.Rmd: Creation of figures using R \
 • qiime2_16S_processing.sh: QIIME2 commands to denoise and trim reads and assign taxonomic classification for 16S amplicons. \
 • qiime2_ITS_processing.sh QIIME2 commands to denoise and trim reads and assign taxonomic classification for ITS amplicons. 
 
@@ -51,4 +46,22 @@ To run the code, you will need R-4.2.1 and the following R packages: \
 • tidyverse \
 • qiime2R \
 • phyloseq \
-• Microbiome 
+• microbiome \
+• dplyr \
+• vegan \
+• ggplot2 \
+• microViz \
+• eulerr \
+• microbiomeSeq \
+• microbial \
+• plotly \
+• picante \
+• ANCOMBC \
+• kableExtra \
+• apeglm \
+• knitr \
+• ggpubbr \
+• MicrobeR \
+• microbiomeutilities \
+• RColorBrewer \
+• Glimma
