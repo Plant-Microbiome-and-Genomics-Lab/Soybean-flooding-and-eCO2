@@ -1,0 +1,12 @@
+Sample-id	sample-name	location	treatment	comparison
+#q2:types	categorical	categorical	categorical	categorical
+CO2_1	CO2_1	Soil	eCO2	test
+CO2_3	CO2_3	Soil	eCO2	test
+Control_1	Control_1	Soil	Control	control
+Control_2	Control_2	Soil	Control	control
+F_C_1	Flooding+CO2_1	Soil	Flooding+eCO2	test
+F_C_2	Flooding+CO2_2	Soil	Flooding+eCO2	test
+F_C_3	Flooding+CO2_3	Soil	Flooding+eCO2	test
+Flood_1	Flooding_1	Soil	Flooding	test
+Flood_2	Flooding_2	Soil	Flooding	test
+Flood_3	Flooding_3	Soil	Flooding	test
