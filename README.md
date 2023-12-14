@@ -38,9 +38,6 @@ The src folder contains the following R scripts: \
 • qiime2_16S_processing.sh: QIIME2 commands to denoise and trim reads and assign taxonomic classification for 16S amplicons. \
 • qiime2_ITS_processing.sh QIIME2 commands to denoise and trim reads and assign taxonomic classification for ITS amplicons. 
 
-# Output 
-The output folder contains tables with ASV counts alongside their amplicon sequence taxonomy. There are also tables showing the differential abundance log2 fold change for both ITS and 16S ASVs. 
-
 # Requirements 
 To run the code, you will need R-4.2.1 and the following R packages: \
 • tidyverse \
