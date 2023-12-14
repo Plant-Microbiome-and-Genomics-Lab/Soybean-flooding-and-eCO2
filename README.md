@@ -34,9 +34,7 @@ The data folder contains the following files: \
 
 # Code 
 The src folder contains the following R scripts: \
-• Figures.Rmd: Creation of figures using R \
-• qiime2_16S_processing.sh: QIIME2 commands to denoise and trim reads and assign taxonomic classification for 16S amplicons. \
-• qiime2_ITS_processing.sh QIIME2 commands to denoise and trim reads and assign taxonomic classification for ITS amplicons. 
+• Figures.Rmd: Creation of figures using R 
 
 # Requirements 
 To run the code, you will need R-4.2.1 and the following R packages: \
